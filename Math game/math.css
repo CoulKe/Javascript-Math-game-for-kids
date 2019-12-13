@@ -1,0 +1,28 @@
+label{
+    margin: 20px;
+    padding: 10px;
+    border-style: none;
+}
+input[type=text] {
+    padding-left: 5px;
+}
+input[type=text]:focus{
+background-color: yellow;
+transition: 3s 18px;
+outline-color: cyan;
+outline-style:outset;
+}
+header>h1{
+    font-family: cursive;
+}
+header>h1 a{
+    text-decoration: none;
+}
+input[type=button]{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+#alert {
+    margin-top: 15px;
+    margin-left: 20px;
+}
